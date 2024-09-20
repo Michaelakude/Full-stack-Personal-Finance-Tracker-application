@@ -45,6 +45,7 @@ const Login = ({ login, isAuthenticated }) => {
     }
 
     return (
+        
         <div className='container mt-5'>
             <h1>Sign In</h1>
             <p>Sign into your Account</p>
@@ -82,10 +83,10 @@ const Login = ({ login, isAuthenticated }) => {
                 Continue With Facebook
             </button>
             <p className='mt-3'>
-                 <Link to='/signup'>Don't have an account? Create one</Link>
+                Don't have an account? <Link to='/signup'>Sign Up</Link>
             </p>
             <p className='mt-3'>
-                 <Link to='/reset-password'>Forgot your Password?</Link>
+                Forgot your Password? <Link to='/reset-password'>Reset Password</Link>
             </p>
         </div>
     );
